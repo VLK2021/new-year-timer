@@ -1,38 +1,45 @@
-.App {
-  text-align: center;
+.container {
+    width: 100%;
+    min-height: 100vh;
+    text-align: center;
+    background-image: url("./images/BlueChristmas1.jpg");
+    background-size: cover;
+    background-position: center center;
+    padding-top: 8rem;
+    color: chartreuse;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+h1 {
+    width: 100%;
+    text-align: center;
+    font-weight: bold;
+    font-size: 4rem;
+    text-transform: uppercase;
+    padding-top: 5rem;
+    padding-right: 6rem;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.container-info {
+    margin: 0 auto;
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 5rem;
+    padding-right: 6rem;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.container-info-of-time {
+    width: 100%;
+    font-weight: bold;
+    text-align: center;
 }
 
-.App-link {
-  color: #61dafb;
+.word {
+    font-size: 3rem;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+p {
+    font-size: 1.2rem;
+    text-transform: uppercase;
 }
