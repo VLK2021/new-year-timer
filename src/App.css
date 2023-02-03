@@ -6,10 +6,10 @@
     background-size: cover;
     background-position: center center;
     padding-top: 8rem;
-    color: chartreuse;
+    color:skyblue;
 }
 
-h1 {
+h1, h3 {
     width: 100%;
     text-align: center;
     font-weight: bold;
@@ -17,6 +17,11 @@ h1 {
     text-transform: uppercase;
     padding-top: 5rem;
     padding-right: 6rem;
+    text-shadow: -0.2rem 0.2rem 0.2rem black;
+}
+
+h3{
+    padding-top: 0;
 }
 
 .container-info {
@@ -37,9 +42,11 @@ h1 {
 
 .word {
     font-size: 3rem;
+    text-shadow: -0.2rem 0.2rem 0.2rem black;
 }
 
 p {
     font-size: 1.2rem;
     text-transform: uppercase;
+    color: skyblue;
 }

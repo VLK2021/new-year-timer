@@ -24,7 +24,8 @@ function App() {
 
     return (
         <div className="container">
-            <h1>Happy New Year!!!</h1>
+            <h1>Happy New Year!</h1>
+            <h3>2024</h3>
 
             <div className={'container-info'}>
                 <div className={'container-info-of-time'}>
